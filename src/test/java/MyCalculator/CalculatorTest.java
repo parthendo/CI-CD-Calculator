@@ -22,10 +22,7 @@ public class CalculatorTest {
 
     @Test
     public void add() {
-        int a = 5;
-        int b = 6;
-        int out = 11;
-        int ans = calculator.add(a,b);
-        Assert.assertEquals(out,ans);
+        assertEquals("Adding two numbers",4,calculator.add(2,2),1e-5);
+        assertNotEquals("Adding two numbers",6,calculator.add(2,2));
     }
 }
