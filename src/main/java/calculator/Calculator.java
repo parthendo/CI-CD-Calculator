@@ -14,7 +14,7 @@ public class Calculator {
         Scanner scanner = new Scanner(System.in);
         double number1=0.0, number2=0.0;
         do {
-            System.out.println("Devops-Calculator, Choose to perform operation");
+            System.out.println("DevOps-Calculator, Choose to perform operation");
             System.out.println("Press 1 to Add\nPress 2 to Subtract\nPress 3 to Multiply\nPress 4 to Divide\n" +
                     "Press any other key to exit\nEnter your choice: ");
             int choice = scanner.nextInt();
@@ -29,7 +29,7 @@ public class Calculator {
 
                     System.out.println("Addition result is : " + calculator.add(number1, number2));
                     break;
-                case 2:
+                /*case 2:
                     // do subtraction
 
                     System.out.println("Subtraction result is : " + calculator.subtract(number1, number2));
@@ -42,7 +42,7 @@ public class Calculator {
                 case 4:
                     // do division
                     System.out.println("Multiplication result is : " + calculator.divide(number1, number2));
-                    break;
+                    break;*/
                 default:
                     System.out.println("Exiting....");
                     return;
@@ -58,7 +58,7 @@ public class Calculator {
         return result;
     }
 
-    public double subtract(double number1, double number2) {
+    /*public double subtract(double number1, double number2) {
         logger.info("Subtracting two numbers " + number1 + " and " + number2);
         double result = number1 - number2;
         logger.info("Result of subtraction is " + result);
@@ -95,5 +95,5 @@ public class Calculator {
             logger.info("Result of dividing is " + result);
         }
         return result;
-    }
+    }*/
 }
