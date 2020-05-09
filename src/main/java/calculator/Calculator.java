@@ -12,6 +12,7 @@ public class Calculator {
 		
 		System.out.println("***********************")
 		System.out.println("Welcome ");
+		System.out.println("***********************")
         Calculator calculator = new Calculator();
         Scanner scanner = new Scanner(System.in);
         double number1=0.0, number2=0.0;
