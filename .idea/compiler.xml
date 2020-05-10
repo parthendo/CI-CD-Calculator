@@ -7,11 +7,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="DevOpsCalculator" />
-        <module name="Devops-Calculator" />
+        <module name="DevOps-Calculator" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="DevOps-Calculator" target="1.5" />
-    </bytecodeTargetLevel>
   </component>
 </project>
