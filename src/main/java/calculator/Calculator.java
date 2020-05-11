@@ -41,7 +41,7 @@ public class Calculator {
                     break;
                 case 4:
                     // do division
-                    System.out.println("Multiplication result is : " + calculator.divide(number1, number2));
+                    System.out.println("Division result is : " + calculator.divide(number1, number2));
                     break;
                 default:
                     System.out.println("Exiting....");
